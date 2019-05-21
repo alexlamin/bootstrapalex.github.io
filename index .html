@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>my way</title>
+	
+	<script type="text/javascript">
+		function ABC(){
+		document.getElementById("gone").innerHTML="Mr:Daniel Lamin";
+		}
+		</script>
+	
+	<style type="text/css">
+		*{
+			padding:0;
+			margin:0;
+		}
+		header{
+			background-image: url("website5.jpg");
+			background-position: center;
+			background-size: cover;
+			height:100vh;
+		}
+		ul{
+			float:right;
+			margin-right: 15px;
+			list-style-type: none;
+		}
+		ul li{
+			
+			display:inline-block;
+			margin-top: 10px;
+			position:relative;
+			border-radius:5px;
+			
+			width:130px;
+			height:35px;
+			line-height:35px;
+			text-align:center;
+			
+		}
+		ul li a{
+			text-decoration: none;
+			color:white;
+			padding:5px 20px;
+			border:0px solid transparent;
+			transition:0.6s ease;
+			display:block;
+			
+		}
+		ul li a:hover{
+			background-color:magenta; 
+			color:white;
+			border-radius:8px;
+		}
+		ul li.active a{
+			background-color:gray;
+			color:white;
+		}
+
+
+ul ul{
+            position:absolute;
+            display:none;
+			
+			
+           
+		}
+		ul li:hover > ul{
+			display:block;
+		}
+
+
+		.logo img{
+			float: left;
+			width:150px;
+			height:50px;
+			margin-left: 15px;
+			margin-top: 10px;
+		}
+		p#dani{
+			color:lightblue;
+			font-style: italic;
+
+		}
+
+ h3{
+ 	color:white;
+ }
+
+		
+
+
+        .button
+ {
+     margin-top:30px;
+	 margin-left:440px;
+  }
+  .btn
+  {
+      border:1px solid white;
+	  padding:10px 30px;
+	  color:white;
+	  text-decoration:none;
+	  margin-right:5px;
+	  font-size:13px;
+	  text-transform:white;
+   }
+   .btn-one
+   {
+       background-color:blue;
+	   font-family:"roboto",sans-serif;
+	}
+	.btn-two
+	{
+	   font-family:"roboto",sans-serif;
+    }
+	.btn-two:hover
+	{
+	    background-color:green;
+		transition:alt 0.10s ease-in;
+	}
+	p#gone{
+	margin-top:300px;
+	color:lightgreen;
+	margin-left:100vh;
+	}
+
+
+	</style>
+</head>
+<body>
+	<header>
+<div class="main">
+	<div class="logo">
+		<img src="logo4.jpeg">
+	</div>
+	<ul>
+		<li class="active"><a href="#">HOME</a></li>
+		<li><a href="#" target="_blank">ABOUT</a>
+		</li>
+		<li><a href="#">SERVICES</a>
+     <ul>
+	 <li><a href="#">IMAGES</a></li>
+	 <li><a href="#">VIDEOS</a></li>
+	 <li><a href="#">MORE</a></li>
+	 </ul>
+
+</li>
+		<li><a href="#">INFORMATION</a></li>
+		<li><a href="#">NEWS</a></li>
+	</ul>
+</div><br><br>
+<pre>                  
+
+      <p id="dani">   <h3> We all know at least one person who is looking for a new job,
+	  has recently found it or gotten the promotion.
+	  Situations differ, 
+	  but they all are about getting a new ... </h3></p></pre><br><br>
+                          
+
+
+
+                <div class="button">
+		     <a href=""class="btn btn-one">Oficial site</a>
+			 <a href=""class="btn btn-two">youtube channel</a>
+	</div><br><br>
+
+     <p id="gone"></p>
+		  <center> <button type="button" onclick="ABC()">Created by??//</button></center>
+
+</header>
+</body>
+</html>
